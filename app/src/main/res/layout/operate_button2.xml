@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right">
+
+
+    <Button
+        android:id="@+id/btnMulitply"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:onClick="btnMultiplyOnClick"
+        android:text="@string/multiply_text"
+        android:textSize="@dimen/display_font"
+        android:textColor="@color/function_color"
+        android:background="@drawable/botton"
+
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnSubtract"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:onClick="btnSubtractOnClick"
+        android:text="@string/subtract_text"
+        android:textSize="@dimen/display_font"
+        android:textColor="@color/function_color"
+        android:background="@drawable/botton"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:onClick="btnPlusOnClick"
+        android:text="@string/plus_text"
+        android:textSize="@dimen/display_font"
+        android:textColor="@color/function_color"
+        android:background="@drawable/botton"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnCalc"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:onClick="btnCalcOnClick"
+        android:text="@string/equal_text"
+        android:textSize="@dimen/display_font"
+        android:textColor="@color/function_color"
+        android:background="@drawable/botton"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+</LinearLayout>
