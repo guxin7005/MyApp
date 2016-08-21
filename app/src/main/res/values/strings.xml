@@ -33,7 +33,7 @@
     <string-array name="unit_array">
         <item>Metres</item>
         <item>Millimetres</item>
-        <item>Centermetres</item>
+        <item>Centermeters</item>
         <item>Kilometres</item>
         <item>Inches</item>
         <item>Feet</item>
