@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MaryCalcu</string>
+    <string name="app_name">MyApp</string>
     <string name="action_settings">Settings</string>
     <string name="clear_text">C</string>
     <string name="divide_text">/</string>
